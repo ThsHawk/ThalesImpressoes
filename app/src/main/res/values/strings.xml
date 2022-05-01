@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ThalesImpressoes</string>
+    <string name="sendButton">send</string>
+    <string name="appscripsButton">OK</string>
+    <string name="title">Impressões</string>
+    <string name="spk_txt_sendButton">Send Button</string>
+    <string name="entry_hint">R$ 99,99</string>
+    <string name="appscrips_hint">appscrips ID</string>
 </resources>
