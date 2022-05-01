@@ -18,7 +18,8 @@
         android:hint="R$ 99,99"
         android:inputType="numberDecimal"
         android:textAlignment="center"
-        android:textColor="#C3C3C3"
+        android:textColor="#A3A3A3"
+        android:textColorHint="#70A3A3A3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -54,4 +55,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/config_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_gear" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
