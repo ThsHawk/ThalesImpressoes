@@ -14,20 +14,19 @@ class ConfigContainer : AppCompatActivity() {
 
         val sharedPref = getSharedPreferences("appscriptID", Context.MODE_PRIVATE)
         val appscriptID = sharedPref.getString("ID", null)
-        val id = appscriptID.toString()
         val editor = sharedPref.edit()
 
         val appscriptIDfield = findViewById<EditText>(R.id.appscripts_ID)
-        if(appscriptID != null) appscriptIDfield.hint = id
+        if(appscriptID != null) appscriptIDfield.hint = appscriptID
 
         val confirmBtn = findViewById<Button>(R.id.appscripts_confirmButton)
 
 
         confirmBtn.setOnClickListener{
 
-            val appscriptID = appscriptIDfield.text.toString()
+            val id = appscriptIDfield.text.toString()
             editor.apply{
-                putString("ID", appscriptID)
+                putString("ID", id)
                 apply()
             }//editor
 
