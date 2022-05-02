@@ -6,4 +6,5 @@
     <string name="spk_txt_sendButton">Send Button</string>
     <string name="entry_hint">R$ 99,99</string>
     <string name="appscrips_hint">appscrips ID</string>
+    <string name="ok_button">success</string>
 </resources>
